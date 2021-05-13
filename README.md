@@ -1,4 +1,4 @@
-This repository is for a project for ACE 592: Data Science. The title is "Using Air Pollution to Predict Economic Activity"
+This repository is for a project for ACE 592: Data Science. The title is "Using Air Pollution to Predict Economic Activity" and a draft is listed above.
 
 Contributors: Lila Cardell, Manny Kim, Frederick Nyanzu, Pablo Ordoñez, Gowthami Venkateswaran
 
@@ -50,9 +50,9 @@ This program performs the following tasks:
 
 2) Data_Analysis.ipynb
 
-This program takes as an input the panel dataset created from the first notebook. The tasks conducted in this notebook includes:
+This program takes as inputs the panel dataset created from the first notebook and the Mexico shapefiles. The tasks conducted in this notebook includes:
 * Loads sklearn toolkits to conduct machine learning analysis
-* Imports clean data (retrieved from Data_Cleaning.ipynb)
+* Imports clean data (created in Data_Cleaning.ipynb)
 * Normalizes the data to prepare for analysis
 * Splits sample into training and testing sets
 * Runs OLS, Lasso and Random Forest prediction exercises
